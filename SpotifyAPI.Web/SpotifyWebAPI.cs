@@ -2311,18 +2311,18 @@ namespace SpotifyAPI.Web
         ///     Get information about a user’s available devices.
         /// </summary>
         /// <returns></returns>
-        public AvailabeDevices GetDevices()
+        public AvailableDevices GetDevices()
         {
-            return DownloadData<AvailabeDevices>(_builder.GetDevices());
+            return DownloadData<AvailableDevices>(_builder.GetDevices());
         }
 
         /// <summary>
         ///     Get information about a user’s available devices.
         /// </summary>
         /// <returns></returns>
-        public Task<AvailabeDevices> GetDevicesAsync()
+        public Task<AvailableDevices> GetDevicesAsync()
         {
-            return DownloadDataAsync<AvailabeDevices>(_builder.GetDevices());
+            return DownloadDataAsync<AvailableDevices>(_builder.GetDevices());
         }
 
         /// <summary>

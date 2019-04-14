@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace SpotifyAPI.Web.Models
 {
-    public class AvailabeDevices : BasicModel
+    public class AvailableDevices : BasicModel
     {
         [JsonProperty("devices")]
         public List<Device> Devices { get; set; }
